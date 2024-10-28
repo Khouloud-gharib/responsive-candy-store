@@ -1,0 +1,448 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+
+/* nav */
+.nav1{
+    width: 100%;
+    background-color: #FFD09B; height:50px; 
+}
+.nav1 h1{
+    color: white;
+    display: flex;justify-content: center; align-items: center; height:50px;
+    letter-spacing: 12px;    word-spacing: 20px;
+}
+.nav1 img{
+    width:43px;
+    position:absolute;right:20px;
+    top:7px
+} 
+/* #f00f5e  img color  */
+.nav2 {
+    background-color:#FFB0B0; 
+    display: flex; flex-direction: row;justify-content: center; align-items: center;
+    width: 100%;
+}
+.nav2 ul{
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    width:60% 
+}
+.nav2 a{
+    text-decoration: none; color: white;
+}
+.nav2 img{
+    width:43px
+}
+.nav2 ul li{
+    margin:10px
+}
+.nav2 ul a:hover{
+    color: hsl(0, 100%, 50%);
+    text-decoration:underline;
+}
+
+@media(max-width:657px){
+    .nav2 ul {
+        display:flex;flex-direction: column;
+    }
+    .nav2 img{
+        display: none;
+    }
+    .nav1{width:100%}
+    .nav2{width:100%}
+    
+}
+@media(max-width:383px){
+    .nav1 {
+         height:60px;
+    }
+}
+@media(max-width:970px){
+    .nav1{width:100%}
+    .nav2{width:100%}
+}
+
+/* section1 */
+
+/* .sec1{
+    background-image:url("https://us.123rf.com/450wm/macmackyky/macmackyky1606/macmackyky160600222/59460545-pink-line-for-background-design.jpg");
+    height:99px;
+ 
+} */
+/* "https://img.freepik.com/premium-photo/ice-cream-waffles-cones-with-colorful-candy_120485-420.jpg" */
+/* "https://img.freepik.com/premium-vector/abstract-pastel-pink-background-with-diagonal-lines-light-pink-texture-with-smooth-gradient_497399-1711.jpg" */
+
+.sec1 h1{
+    font-family: "Rubik Wet Paint", system-ui;
+  font-weight: 400;
+  font-size: 60px;
+  word-spacing: 90px;letter-spacing: 13px;
+  font-style: normal;  
+  display: flex; justify-content: center; align-items: center;
+  height:97px;
+  color:rgba(255, 254, 255, 0.932)
+}
+.sec1 h3{
+    
+    font-size: 50px ;
+    display: flex;
+    justify-content: center;
+    color: #bd4853;
+    font-weight: bold;
+}
+@media(max-width:1338px){
+    .sec1 h1{
+        font-size:60px;
+        word-spacing:0px;
+    }
+    .sec1 h3{
+        font-size: 40px;
+    }
+}
+@media(max-width:1069px){
+    .sec1 h1{
+        font-size: 40px;
+        text-align: center;
+    }
+}
+
+/* section2 */
+
+.sec2{
+    display:flex;
+    justify-content: center;
+    margin-top: 20px;
+
+}
+.sec2 p {
+    display: flex;
+   align-items: center;
+    text-align:center; font-size:30px;
+    font-family: "Allison", cursive;
+    color:#FFB0B0;
+    background-color: white;
+    border-radius: 0 40px 40px 0;
+    padding: 20px;
+}
+.sec2 img{
+    border-radius: 40px 0 0 40px;
+    
+}
+
+@media(max-width:896px){
+    .sec2{ margin:20px
+    }
+}
+
+/* section 3 */
+
+.sec3{
+    margin-top: 45px;
+    display:flex; flex-wrap: wrap;
+}
+.sec3 .best{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+ background-image: url(https://png.pngtree.com/thumb_back/fw800/background/20240728/pngtree-gourmet-chocolate-selection-assorted-truffles-confectionery-delights-sweet-indulgence-image_15925821.jpg);
+ background-size: 354px;
+ display: flex; justify-content: center; align-items: center;
+ margin-top: 20px;
+}
+.sec3 .best:hover{
+    background-image: url(https://png.pngtree.com/thumb_back/fh260/background/20240716/pngtree-a-range-of-sweets-set-on-pink-backdrop-image_15925819.jpg)
+}
+#bestbtn2{
+    visibility: hidden;
+}
+.sec3 h3{
+ font-size: 40px;
+ font-family: "Allison", cursive;
+ text-align: center;
+    color:seashell;
+}
+.sec3 img{
+    width:100%;display:flex;
+}
+.sec3{
+    display: flex;
+    justify-content: space-around;
+}
+.sec3 h2{
+    font-size: 15px;text-align: center ;
+    padding: 5px;
+}
+.sec3 .best1{
+    background-color: #eff5f578;
+    width:300px; 
+    border-radius: 10%;
+    margin-top: 20px;
+}
+.sec3 .best1:hover{
+    
+    background-color: #e5576f78;
+    
+}
+.sec3 .best2{
+    background-color: #eff5f578;
+    width:300px; 
+    border-radius: 10%;
+    margin-top: 20px;
+}
+.sec3 .best2:hover{
+    
+    background-color: #e5576f78;
+    
+}
+
+@media(max-width:1360px){
+    #bestbtn2{
+        display:none
+    }
+}
+
+/* section 4 */
+.sec4{
+    margin-top: 57px;
+    margin-bottom: 57px;
+}
+.sec4 h3{
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    color: #bd4853;
+    font-weight: bold;
+    margin-top: 20px;
+}
+.flavor{
+    display: flex;flex-direction: row;
+    justify-content: center;
+    padding: 10px;
+
+}
+.flavor div{
+    flex-direction: row;
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+  
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   
+    background-size: cover;
+   
+}
+.sec4 h2{
+    font-size: 50px;
+    color:#f00f5e
+}
+.flavor1{
+    font-family: "Rubik Wet Paint", system-ui;
+   margin: 40px;
+   margin-inline-end: 191px;
+   background-image: url(https://media.istockphoto.com/id/2161616187/vector/wavy-sun-rays-bright-retro-background-summer-vortex-banner-70s-style.jpg?s=612x612&w=0&k=20&c=5OJoVnKySJBn2Q2HQaakqIqI2ZQZOIezytAXkrU9gm4=)
+}
+.flavor2{
+    font-family: "Rubik Wet Paint", system-ui;
+    margin: 40px;
+   
+    background-image: url(https://img.freepik.com/premium-vector/spiral-pink-sweet-candy-background_219144-332.jpg);
+}
+.sec4 button{
+    font-family: "Rubik Wet Paint", system-ui;
+    font-size: 20px;
+    border: none;
+    background: transparent;
+    color:#f00f5e
+}
+.sec4 button:hover{
+    text-decoration: underline;
+    color:#bd4853;
+}
+.sec4 h2:hover{
+   
+    color:aliceblue;
+    font-size: 60px;
+}
+@media (max-width:726px){
+    .flavor{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+
+
+/* gist box */
+
+.gift{  display: flex;
+    justify-content: center;
+    align-items: center;
+    width:100%;
+    background-color: #e7a5a578;
+    padding-bottom: 20px;
+}
+.gift img{
+    width:200px;
+    padding: 20px;
+    border-radius: 63px;
+}
+.gift h1{
+    color:#fe6f61
+}
+
+.gift img:hover{
+    width:350px ;
+
+}
+
+@media(max-width:983px){
+    .gift {display: flex;
+    flex-direction: column;}
+}
+
+/* logo divider */
+.logo{
+    padding: 20px;
+    display:flex;justify-content: center;
+    flex-wrap: wrap;
+}
+.logo img{
+    width: 86px;
+    padding:30px
+;
+    position: relative;
+
+animation-name: move;
+
+animation-duration: 2s;
+
+animation-direction: alternate;
+
+animation-timing-function: ease-in-out;
+
+animation-iteration-count: infinite;
+}
+@keyframes move {
+
+    from {top: 0px;}
+    
+    to {top: 50px;}
+    
+    }
+
+/* section5 */
+
+.sec5 h3{
+
+    font-size: 40px;
+    font-family: "Allison", cursive;
+    text-align: center;
+       color:seashell; 
+
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+ background-image: url(https://img.freepik.com/premium-photo/halloween-candy-corner-border-banner_773922-9854.jpg);
+ background-size: 354px;
+ display: flex; justify-content: center; align-items: center;
+ margin-top: 20px;
+}
+
+.sec5 h3:hover{
+    background-image: url(https://png.pngtree.com/thumb_back/fh260/background/20240716/pngtree-a-range-of-sweets-set-on-pink-backdrop-image_15925819.jpg)
+}
+
+
+
+.sec5{
+    width:100%;
+    margin-top: 45px;
+    display:flex; flex-wrap: wrap;
+}
+
+   .sec5 img{
+       width:100%;display:flex;
+   }
+   .sec5 {
+       display: flex;
+       justify-content: space-around;
+      
+   }
+   .sec5 h2{
+       font-size: 15px;text-align: center ;
+       padding: 5px;
+       
+   }
+   .sec5 .new{
+       background-color: #eff5f578;
+       width:350px; 
+       border-radius: 10%;
+       margin-top: 20px;
+       display: flex;
+       flex-direction: column;
+       align-items: center;
+   }
+#newpic h2{
+    margin-top: 78px;
+}
+#newpic img{
+    margin-top:20px
+}
+
+.sec5 .new:hover{
+    
+    background-color: #e5576f78;
+    
+}
+
+
+
+
+/* footer */
+.footer{
+    width: 100%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer img{
+    width:300px;
+    
+}
+
+.footer1{
+    width: 100%;
+    background-color: #FFD09B ;
+    margin-top: 49px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.footertext p{
+   
+    padding: 20px;
+}
+.footerimg svg{
+ width:20px;
+ margin: 20px;
+ padding-left: 20px;
+}
+@media(max-width:992px) {
+    .footer img{
+        width:200px
+    }
+}
+@media(max-width:531px) {
+    .footer1{
+        display: flex;flex-direction: column;
+    }
+}
